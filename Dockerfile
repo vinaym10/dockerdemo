@@ -6,8 +6,7 @@ WORKDIR /app
 # Replace YOUR_TOKEN with the actual Personal Access Token
 ARG GITHUB_TOKEN=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
 RUN apk --no-cache add git \
-    && git clone https://${GITHUB_TOKEN}@github.com/vinaym10/dockerdemo.git .
-
+    && git clone https://${GITHUB_TOKEN}@github.com/your-username/your-repository.git .
 
 # Clone the repository into the container
 RUN apk --no-cache add git
