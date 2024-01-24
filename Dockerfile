@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Clone the repository into the container
 RUN apk --no-cache add git
-RUN git clone https://github.com/your-username/your-repository.git .
+RUN git clone https://github.com/vinaym10/dockerdemo.git .
 
 # Expose port 80
 EXPOSE 80
